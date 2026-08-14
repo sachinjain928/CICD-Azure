@@ -9,5 +9,13 @@ VN = {
   }
 
 
+VN2 = {
+
+    name          = "VN2"
+    rg_name       = "kml_rg_main-e0d8cc8ff06a4b07"
+    location      = "East US"
+    address_space = ["20.0.0.0/16"]
+  }
+
 }
 
