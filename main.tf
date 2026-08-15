@@ -12,9 +12,9 @@ resource "azurerm_virtual_network" "Virtual_Nw" {
 
 
 
-resource "azurerm_storage_account" "sachinfirststorageaccount1" {
-  name                     = "sjfirststorageaccount2"
-  resource_group_name      = "kml_rg_main-e0d8cc8ff06a4b07"
+resource "azurerm_storage_account" "sachinfirststorageaccount8" {
+  name                     = "sjfirststorageaccount8"
+  resource_group_name      = "kml_rg_main-a8bfa261f7de4372"
   location                 = "East US"
   account_tier             = "Standard"
   account_replication_type = "LRS"
@@ -22,8 +22,8 @@ resource "azurerm_storage_account" "sachinfirststorageaccount1" {
 }
 
 resource "azurerm_storage_container" "sachincontainer" {
-  name = "sachin-container1"
+  name = "sachin-container3"
   # resource_group_name   = azurerm_resource_group" "sachin-RG-STA-2.name
-  storage_account_id    = azurerm_storage_account.sachinfirststorageaccount1.id
-  container_access_type = "blob"
+  storage_account_id    = azurerm_storage_account.sachinfirststorageaccount8.id
+  container_access_type = "private"
 }
