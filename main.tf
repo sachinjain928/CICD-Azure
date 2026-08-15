@@ -14,7 +14,7 @@ resource "azurerm_virtual_network" "Virtual_Nw" {
 
 resource "azurerm_storage_account" "sachinfirststorageaccount8" {
   name                     = "sjfirststorageaccount8"
-  resource_group_name      = "kml_rg_main-a8bfa261f7de4372"
+  resource_group_name      = "kml_rg_main-56c0d75070cb4c3d"
   location                 = "East US"
   account_tier             = "Standard"
   account_replication_type = "LRS"
