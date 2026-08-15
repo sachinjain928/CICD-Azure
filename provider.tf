@@ -10,10 +10,10 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "kml_rg_main-e0d8cc8ff06a4b07"
-    storage_account_name = "sjfirststorageaccount2"
-    container_name       = "sachin-container1"
-    key                  = "terraform.tfstate"
+    resource_group_name  = "kml_rg_main-56c0d75070cb4c3d"
+    storage_account_name = "sjfirststorageaccount8"
+    container_name       = "sachin-container3"
+    key                  = "terraform.tfstate1"
   }
 
 
